@@ -1,0 +1,12 @@
+title: Muhammad Al-farisy
+description: Portfolio Website – Data Analyst & Aspiring Data Engineer
+baseurl: "" # kosong jika root
+url: "https://mhdalfarisy.github.io"
+
+theme: minima
+
+email: muhammadalfarisy10@gmail.com
+github_username: mhdalfarisy
+linkedin_username: mhdalfarisy
+
+markdown: kramdown
