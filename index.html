@@ -2,165 +2,66 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Muhammad Al-farisy | Portfolio</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      scroll-behavior: smooth;
-    }
 
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to bottom right, #1e3a8a, #0f172a);
-      color: #e2e8f0;
-      line-height: 1.6;
-    }
+  <!--==================== CSS ====================-->
+  <link rel="stylesheet" href="css/style.css" />
 
-    header {
-      padding: 40px 20px;
-      text-align: center;
-      background: transparent;
-    }
+  <!--==================== ICONS (Unicons, optional) ====================-->
+  <link href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" rel="stylesheet" />
 
-    header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
-      color: #f1f5f9;
-    }
+  <!--==================== SWIPER CSS (optional) ====================-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
 
-    header p {
-      font-size: 1.2rem;
-      color: #cbd5e1;
-    }
-
-    nav {
-      background-color: #0f172a;
-      padding: 12px;
-      position: sticky;
-      top: 0;
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      z-index: 10;
-    }
-
-    nav a {
-      color: #e2e8f0;
-      text-decoration: none;
-      padding: 8px 16px;
-      border-radius: 6px;
-      transition: background 0.3s;
-    }
-
-    nav a:hover {
-      background-color: #334155;
-    }
-
-    section {
-      padding: 60px 20px;
-      max-width: 800px;
-      margin: auto;
-    }
-
-    h2 {
-      font-size: 1.8rem;
-      margin-bottom: 20px;
-      color: #facc15;
-    }
-
-    ul {
-      list-style: none;
-      padding-left: 0;
-    }
-
-    li {
-      margin-bottom: 10px;
-    }
-
-    a {
-      color: #93c5fd;
-    }
-
-    footer {
-      text-align: center;
-      padding: 20px;
-      background-color: #1e293b;
-      color: #94a3b8;
-      margin-top: 40px;
-    }
-
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 2rem;
-      }
-
-      nav {
-        flex-direction: column;
-      }
-    }
-  </style>
-  <script>
-    window.onload = function () {
-      window.location.hash = '#about';
-    };
-  </script>
 </head>
 <body>
 
-  <header>
-    <h1>Muhammad Al-farisy</h1>
-    <p>Data Analyst & Aspiring Data Engineer</p>
-  </header>
+  <!-- HEADER -->
+  <header class="header" id="header"></header>
 
-  <nav>
-    <a href="#about">About Me</a>
-    <a href="#portfolio">Portfolio</a>
-    <a href="#learning">Learning</a>
-    <a href="#contact">Contact</a>
-  </nav>
+  <!-- MAIN -->
+  <main class="main">
+    <section class="home section" id="home">
+      <h1>Hi, I'm Faris</h1>
+      <p>Data Analyst & Aspiring Data Engineer</p>
+    </section>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      Data Analyst with hands-on experience in building interactive dashboards using Power BI and supporting ETL processes.
-      Skilled in data extraction, transformation, and visualization. Proficient in tools and technologies including Python,
-      Apache Airflow, Google BigQuery, SQL Server, and Power BI. Strong interest in Data Engineering and continuously expanding
-      knowledge in Artificial Intelligence (AI). Focused on delivering actionable insights and automating data workflows to support
-      business decision-making.
-    </p>
-  </section>
+    <section class="about section" id="about">
+      <h2>About Me</h2>
+      <p>
+        Data Analyst with hands-on experience in building interactive dashboards using Power BI and supporting ETL processes.
+        Skilled in data extraction, transformation, and visualization. Proficient in tools and technologies including Python,
+        Apache Airflow, Google BigQuery, SQL Server, and Power BI.
+        Strong interest in Data Engineering and continuously expanding knowledge in Artificial Intelligence (AI).
+        Focused on delivering actionable insights and automating data workflows to support business decision-making.
+      </p>
+    </section>
 
-  <section id="portfolio">
-    <h2>Portfolio</h2>
-    <ul>
-      <li>🔹 Data Engineer Projects</li>
-      <li>🔹 Power BI Dashboards</li>
-      <li>🔹 Data Analyst Works</li>
-      <li>🔹 ETL Pipelines</li>
-    </ul>
-  </section>
+    <section class="portfolio section" id="portfolio">
+      <h2>Portfolio</h2>
+      <ul>
+        <li>Data Engineer Projects</li>
+        <li>Power BI Dashboards</li>
+        <li>Data Analyst Works</li>
+        <li>ETL Pipelines</li>
+      </ul>
+    </section>
 
-  <section id="learning">
-    <h2>Learning</h2>
-    <p>Sedang belajar mendalam tentang Data Engineering menggunakan:</p>
-    <ul>
-      <li>✅ SQLAlchemy (Python ORM untuk akses database)</li>
-      <li>✅ Apache Airflow untuk orkestrasi ETL</li>
-      <li>✅ BigQuery untuk data warehouse</li>
-    </ul>
-  </section>
+    <section class="contact section" id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:muhammadalfarisy10@gmail.com">muhammadalfarisy10@gmail.com</a></p>
+    </section>
+  </main>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:muhammadalfarisy10@gmail.com">muhammadalfarisy10@gmail.com</a></p>
-  </section>
-
-  <footer>
+  <footer class="footer">
     <p>&copy; 2025 Muhammad Al-farisy</p>
   </footer>
 
+  <!-- SWIPER JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- MAIN JS -->
+  <script src="js/main.js"></script>
 </body>
 </html>
