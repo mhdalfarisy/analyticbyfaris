@@ -1133,10 +1133,10 @@ section .container {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url('../img/background/Data_analytics.jpg.jpg');
+  background-image: url('https://raw.githubusercontent.com/mhdalfarisy/analyticbyfaris/main/assets/img/background/Data_analytics.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   z-index: -1;
-  opacity: 0.3; /* Supaya konten masih terlihat */
+  opacity: 0.3;
 }
