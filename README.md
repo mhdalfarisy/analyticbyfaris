@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-# streamlit_app
 =======
 # Muhammad Al-farisy.github.io
 
